@@ -1,24 +1,24 @@
-INSERT INTO companies 
-VALUES  (1,'Nintendo'),
-		(2,'Nintendo'),
-		(3,'Nintendo'),
-		(4,'Microsoft'),
-		(5,'Take-Two Interactive'),
-		(6,'Take-Two Interactive'),
-		(7,'Activision'),
-		(8,'Activision'),
-		(9,'Electronic Arts');
+INSERT INTO companies (company_name)
+VALUES  ('Nintendo'),
+		('Nintendo'),
+		('Nintendo'),
+		('Microsoft'),
+		('Take-Two Interactive'),
+		('Take-Two Interactive'),
+		('Activision'),
+		('Activision'),
+		('Electronic Arts');
 
-INSERT INTO video_games(video_game_id,video_game_name,video_game_platform,video_game_genre,year_of_publication,company_id)
-VALUES (1, 'Wii Sports','Wii','Sports',2006,1),
-       (2, 'Super Mario Bros.','NES','Platform',1985,2),
-       (3, 'Mario Kart Wii','Wii','Racing',2008,3),
-       (4, 'Kinect Adventures!','X360','Misc',2010,4),
-	   (5, 'Grand Theft Auto V','PS3','Action',2013,5),
-	   (6, 'Grand Theft Auto: San Andreas','PS2','Action',2004,6),
-	   (7, 'Call of Duty: Black Ops','X360','Shooter',2010,7),
-	   (8, 'Call of Duty: Modern Warfare 2','PS3','Shooter',2009,8),
-	   (9, 'The Sims 3','PC','Simulation',2009,9);
+INSERT INTO video_games(video_game_name,video_game_platform,video_game_genre,year_of_publication,company_id)
+VALUES ( 'Wii Sports','Wii','Sports',2006,1),
+       ( 'Super Mario Bros.','NES','Platform',1985,2),
+       ( 'Mario Kart Wii','Wii','Racing',2008,3),
+       ( 'Kinect Adventures!','X360','Misc',2010,4),
+	   ( 'Grand Theft Auto V','PS3','Action',2013,5),
+	   ( 'Grand Theft Auto: San Andreas','PS2','Action',2004,6),
+	   ( 'Call of Duty: Black Ops','X360','Shooter',2010,7),
+	   ( 'Call of Duty: Modern Warfare 2','PS3','Shooter',2009,8),
+	   ( 'The Sims 3','PC','Simulation',2009,9);
 
 INSERT INTO na_sales(na_sales,sales_date,video_game_id)
 VALUES  (41.49,'01.01.2020',1),
