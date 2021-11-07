@@ -1,3 +1,4 @@
+--Запускати файл як 1 запит
 INSERT INTO companies (company_name)
 VALUES  ('Nintendo'),
 		('Nintendo'),
